@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Log out",
+    "line": 1,
+    "id": "log-out",
+    "tags": [],
+    "uri": "logout.feature",
+    "elements": [
+      {
+        "id": "log-out;succesfully-log-out",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Succesfully log out",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Im logged in to the homepage \"http://localhost:4200/homepage\"",
+            "result": {
+              "status": "passed",
+              "duration": 401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "Im logged in as \"Estudiante\"",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Log out\" button",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Im redirected to the landing page at \"http://localhost:4200/landing\"",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I can see a \"Log in\" button",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
